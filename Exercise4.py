@@ -14,7 +14,7 @@ def find_missing_number(lst):
         if num not in lst:
             list1.append(num)
 
-    return list1
+    return list1[0]
     
     
-
+print(find_missing_number([5, 6, 10, 11, 13]))
